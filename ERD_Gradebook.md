@@ -1,8 +1,8 @@
 ```mermaid
 erDiagram
     STUDENTS {
-        int student_id PK
-        string first_name
+        SMALLINT student_id PK
+        VARCHAR(20) first_name
         string last_name
         string email
         date enrollment_date
