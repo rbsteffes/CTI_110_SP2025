@@ -1,4 +1,4 @@
-'''mermaid
+```mermaid
 erDiagram
     STUDENTS {
         int student_id PK
@@ -16,4 +16,4 @@ erDiagram
     }
     STUDENTS ||--o{ ASSIGNMENTS : "has"
 
-'''
+```
