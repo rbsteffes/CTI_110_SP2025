@@ -12,6 +12,7 @@ erDiagram
         VARCHAR(20) title
         VARCHAR(20) description
         DATE due_date
+        SMALLINT Grade
         SMALLINT student_id FK
     }
     STUDENTS ||--o{ ASSIGNMENTS : "has"
